@@ -1,0 +1,188 @@
+*{
+margin:0; padding: 0;
+box-sizing: border-box;
+}
+
+.header table td h1{
+
+color:rgb(236, 209, 234); 
+font-family: 'Open Sans', sans-serif; 
+font-size:20pt;
+margin-left: 500px;}
+
+.header table td h2{
+color:rgb(236, 209, 234); 
+font-family: 'Open Sans', sans-serif; 
+font-size:10pt;
+margin-left: 460px;
+}
+
+.header table td img{ 
+max-width: 85px; 
+max-height: 85px; 
+padding: 5px; 
+margin-left: 20px;
+}
+
+.header{
+background-color: rgb(185, 8, 8);
+padding: 20px; 
+}
+
+.navbar{
+background-color: rgb(155, 153, 153); 
+margin: 0px;
+padding: 5px; 
+}
+
+.navbar ul li{ 
+float: left;
+border-radius: 3px;
+}
+.navbar ul{
+font-family: 'Open Sans', sans-serif; 
+color: rgb(0, 0, 0); 
+overflow: hidden;
+list-style: none;
+}
+
+.navbar ul li a{
+font-family: 'Open Sans', sans-serif; 
+font-size: 12px;
+text-decoration: none; 
+padding: 10px; 
+display: block;
+color:rgb(236, 209, 234); 
+margin-bottom: 5px; 
+margin-left: 10px; 
+margin-right: 130px; 
+margin-top: 5px;
+}
+
+.navbar ul li a:hover { 
+border-radius: 50px;
+background-color: rgb(236, 209, 234); 
+background-size: 1mm;
+color: rgb(40, 31, 83); 
+font-size: 30pt;
+font-family: 'Open Sans', sans-serif; 
+font-weight: bold; 
+margin-right: 125.5px;
+}
+
+.home{
+background-color: rgb(252, 90, 90); 
+width: fit-content;
+border-radius: 10px;
+}
+
+.sidebar{
+background-color: rgb(250, 49, 49);
+font-family: 'Open Sans', sans-serif; 
+}
+
+.side{
+min-width: 230px; 
+width: 1%; 
+float: left; 
+height: 700px; 
+margin: 0px;
+background-color: rgb(197, 146, 146);
+}
+
+.side h2{
+background-color: #b92323;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+color: white;
+padding: 10px;
+}
+
+.side2{
+width: 82.90%;
+text-align: center;
+float: left;
+border-radius: 3px;
+background-color: white;
+height: 700px;
+}
+    
+.side2 h1{
+font-family: 'Open Sans', sans-serif;
+color: rgb(0, 0, 0);
+margin: 50Px;
+}
+
+.side2 h2{
+font-family: 'Open Sans', sans-serif;
+color: rgb(19, 2, 248);
+margin: 50Px;
+}
+
+.side2 h3{
+font-family: 'Open Sans', sans-serif;
+color: rgb(97, 3, 97);
+margin: 10Px;
+}
+
+.side2 h4{
+font-family: 'Open Sans', sans-serif;
+color: rgb(155, 70, 167);
+margin: 10Px;
+}
+    
+
+.side ul {
+list-style: none;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold; 
+}
+
+.page{
+text-indent: 15px; 
+display: block; 
+align-items: center; 
+padding: 8px;
+margin-top: 8px;
+margin-left: 3px; 
+margin-right: 3px; 
+margin-bottom: 2px; 
+text-decoration: none;
+color: rgb(49, 48, 49);
+
+}
+
+.page:hover{
+background-color: rgb(236, 209, 234);
+border-radius: 4px;
+color: rgb(40, 31, 83); 
+font-weight: bold; 
+width: 150px;
+
+}
+
+.sign{
+text-indent: 15px; 
+display: block; 
+align-items: center;
+padding: 8px;
+margin-left: 20px; 
+max-width: 100px; 
+padding: 7px;
+text-decoration: none; 
+color: rgb(236, 209, 234); 
+display: none;
+
+}
+.sign:hover{
+background-color: rgb(236, 209, 234); 
+border-radius: 4px;
+color: rgb(40, 31, 83); 
+font-weight: bold; 
+width: 600px;
+
+}
+
+.dropdown:hover .sign{ 
+display: block;
+}
